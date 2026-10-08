@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview --port 4179"
+    "preview": "vite preview --port 8080 --host 127.0.0.1"
   },
   "dependencies": {
     "@fontsource/inter-tight": "^5.3.0",
